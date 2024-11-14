@@ -46,10 +46,10 @@ if (result === "sat") {
     const petNames = { 1: "Cat", 2: "Dog", 3: "Bird", 4: "Fish" };
 
     console.log("Solution:");
-    console.log(`Bob has ${petNames[bobPet]}`);
-    console.log(`Mary has ${petNames[maryPet]}`);
-    console.log(`Cathy has ${petNames[cathyPet]}`);
-    console.log(`Sue has ${petNames[suePet]}`);
+    console.log(`Bob: ${petNames[bobPet]}`);
+    console.log(`Mary: ${petNames[maryPet]}`);
+    console.log(`Cathy: ${petNames[cathyPet]}`);
+    console.log(`Sue: ${petNames[suePet]}`);
 } else {
     console.log("unsat");
 }
