@@ -10,7 +10,7 @@ const Mary = Int.const('Mary');
 const Cathy = Int.const('Cathy');
 const Sue = Int.const('Sue');
 
-//pet constraints
+//pets
 const CAT = 1;
 const DOG = 2;
 const BIRD = 3;
@@ -42,7 +42,7 @@ if (result === "sat") {
     const cathyPet = model.eval(Cathy).value();
     const suePet = model.eval(Sue).value();
 
-    //map pet values to names for clarity
+    //pet values
     const petNames = { 1: "Cat", 2: "Dog", 3: "Bird", 4: "Fish" };
 
     console.log("Solution:");
@@ -51,5 +51,5 @@ if (result === "sat") {
     console.log(`Cathy has ${petNames[cathyPet]}`);
     console.log(`Sue has ${petNames[suePet]}`);
 } else {
-    console.log("No solution found.");
+    console.log("unsat");
 }
